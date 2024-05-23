@@ -30,21 +30,21 @@ Installs needed
 	$apt install git
 	
 	$apt install nginx
---------------	
-Configure GitHub account
 
+Configure GitHub account
+---------------
 	$git config --global user.name "your username" 
 	
 	$git config --global user.email "your email"
 
 Directory to store keys/ owndership to www-data(nginx) user
-
+----------------
 	$mkdir /var/www/.ssh
 	
 	$chown -R www-data:www-data
 
 Generate RSA keys
-
+----------------
 	$sudo -Hu www-data ssh-keygen -t rsa
 	
 	$sudo cat /var/www/.ssh/id_rsa.pub 
@@ -52,7 +52,7 @@ Generate RSA keys
 Place keys in github
 
 Cloning repo as nginx user
-
+------------------------
 	$cd /var/www
 
 	$sudo chown -R www-data:www-data /var/www/[site_dir]
@@ -64,11 +64,11 @@ Cloning repo as nginx user
 	$git clone -b [branch_name] git@github.com:[githubuser]/[gitrepo].git /var/www/[site_dir]
 
 exit
-
+-----------------------
 Cronjob to automatically pull
 	$crontab -e
 	*/1 * * * * su -s /bin/sh www-data -c 'cd /var/www/[site-dir] && git pull'
-
+------------------------
 
 
 
