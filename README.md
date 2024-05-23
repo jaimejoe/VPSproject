@@ -24,20 +24,29 @@ https://try.digitalocean.com/cloud/?utm_campaign=amer_brand_kw_en_cpc&utm_adgrou
 
 
 Installs needed
+-------------
 	$apt update
-	$apt install git
-	$apt install nginx
 	
+	$apt install git
+	
+	$apt install nginx
+--------------	
 Configure GitHub account
+
 	$git config --global user.name "your username" 
+	
 	$git config --global user.email "your email"
 
 Directory to store keys/ owndership to www-data(nginx) user
+
 	$mkdir /var/www/.ssh
+	
 	$chown -R www-data:www-data
 
 Generate RSA keys
+
 	$sudo -Hu www-data ssh-keygen -t rsa
+	
 	$sudo cat /var/www/.ssh/id_rsa.pub 
 
 Place keys in github
