@@ -17,7 +17,10 @@ Resources downloaded/used:
  
  - https://www.putty.org
  
-
+Alternative script instead of cron would've been php.
+However, I encountered an error 405 when linking it to webhooks on GitHub.
+I realize that webhooks only work when there is no password. Which, is not safe and inconvenient.
+Cronjob is a lot quicker to implement and a lot simpler, while also being the on that works.
 
 
 Installation
