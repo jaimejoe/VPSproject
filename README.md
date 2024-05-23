@@ -60,7 +60,7 @@ Cloning repo as nginx user
 	$sudo su -l www-data -s /bin/bash
 
 	$git clone git@github.com:[githubuser]/[gitrepo].git /var/www/[site_dir]
-- or for branch -
+or for branch 
 	$git clone -b [branch_name] git@github.com:[githubuser]/[gitrepo].git /var/www/[site_dir]
 
 exit
