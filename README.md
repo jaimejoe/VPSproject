@@ -11,14 +11,17 @@ recommended to use an SSH client, so I settled for what DigitalOcean recommended
 which is puTTy. I directly am able to access the VPS with no overhead. All commands are done through puTTy. Done for UNIX course 2024.
 
 Resources downloaded/used: 
- -https://thecodebeast.com/auto-deploy-git-on-digital-ocean-or-any-other-vps/#google_vignette
- -https://try.digitalocean.com/cloud/?utm_campaign=amer_brand_kw_en_cpc&utm_adgroup=digitalocean_droplet_exact&_keyword=digitalocean%20vps&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google&gad_source=1&gclid=CjwKCAjwr7ayBhAPEiwA6EIGxKyAxCJ-cpt6k3ylehdXVfL0Pls1IBa8kGFXIwsa7Oc_wqW__hLWjBoCaZkQAvD_BwE
- -https://www.putty.org
+ - https://thecodebeast.com/auto-deploy-git-on-digital-ocean-or-any-other-vps/#google_vignette-
+ 
+ - https://try.digitalocean.com/cloud/?utm_campaign=amer_brand_kw_en_cpc&utm_adgroup=digitalocean_droplet_exact&_keyword=digitalocean%20vps&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google&gad_source=1&gclid=CjwKCAjwr7ayBhAPEiwA6EIGxKyAxCJ-cpt6k3ylehdXVfL0Pls1IBa8kGFXIwsa7Oc_wqW__hLWjBoCaZkQAvD_BwE
+ 
+ - https://www.putty.org
  
 
 
 
-###Installation
+Installation
+---------------
 Sign in and get a VPS at 
 https://try.digitalocean.com/cloud/?utm_campaign=amer_brand_kw_en_cpc&utm_adgroup=digitalocean_droplet_exact&_keyword=digitalocean%20vps&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google&gad_source=1&gclid=CjwKCAjwr7ayBhAPEiwA6EIGxKyAxCJ-cpt6k3ylehdXVfL0Pls1IBa8kGFXIwsa7Oc_wqW__hLWjBoCaZkQAvD_BwE
 
