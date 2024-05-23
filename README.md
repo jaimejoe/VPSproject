@@ -37,12 +37,13 @@ Directory to store keys/ owndership to www-data(nginx) user
 	$chown -R www-data:www-data
 
 Generate RSA keys
-	sudo -Hu www-data ssh-keygen -t rsa
-	sudo cat /var/www/.ssh/id_rsa.pub 
+	$sudo -Hu www-data ssh-keygen -t rsa
+	$sudo cat /var/www/.ssh/id_rsa.pub 
 
 Place keys in github
 
 Cloning repo as nginx user
+
 	$cd /var/www
 
 	$sudo chown -R www-data:www-data /var/www/[site_dir]
