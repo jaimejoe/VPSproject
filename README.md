@@ -64,8 +64,9 @@ Cloning repo as nginx user
 	$git clone -b [branch_name] git@github.com:[githubuser]/[gitrepo].git /var/www/[site_dir]
 
 exit
------------------------
+----------------------
 Cronjob to automatically pull
+------------------------
 	$crontab -e
 	*/1 * * * * su -s /bin/sh www-data -c 'cd /var/www/[site-dir] && git pull'
 ------------------------
